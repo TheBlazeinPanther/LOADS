@@ -1,0 +1,32 @@
+ header #logo {
+    width: 30%;
+    max-width: 200px;
+ }
+ form {
+	 max-width:500px;
+	 max-height:500px;
+	 
+ }
+ 
+ textarea {
+	 max-height: 500px;
+	 max-width: 500px;
+ }
+ 
+input, textarea {
+	outline: none; 
+	border: 1px solid #ddd;
+	
+}
+
+input:focus, textarea:focus {
+	box-shadow:0 0 4px rgba(208, 142, 110, 0.5);
+	border: 1px solid #646464;
+}
+
+::placeholder {
+	color: #372032
+	opacity: 0.5;
+	
+}
+
